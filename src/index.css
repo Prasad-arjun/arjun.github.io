@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&display=swap');/* google fonts  */
+
+.navText
+{
+    font-family: 'Fira Code', monospace;
+    
+}
+.headline
+{
+    font-family: 'Inter', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.skills
+{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 3px 10px;
+    padding: 0px;
+    overflow: hidden;
+   
+}
+main::before
+{
+    
 }
