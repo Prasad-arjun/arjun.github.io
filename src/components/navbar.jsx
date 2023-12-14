@@ -1,6 +1,6 @@
  import React from "react";
-import logo from "../src/resources/Arjun.svg";
-import "../src/index.css";
+import logo from "../resources/Arjun.svg";
+import "../index.css";
 
 function Navbar() {
   return (
